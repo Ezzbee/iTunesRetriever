@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Search component correctly 1`] = `
+<div>
+  <form
+    className=""
+    onSubmit={[Function]}
+  >
+    <input
+      maxLength="50"
+      onChange={[Function]}
+      placeholder="Enter Search Term"
+      type="text"
+      value=""
+    />
+    <button
+      className="btn btn-primary"
+      type="submit"
+    >
+      Go
+    </button>
+    <div
+      className="kind"
+    >
+      <span>
+        Media Type
+      </span>
+      <br />
+      <div
+        className="form-check form-check-inline"
+      >
+        <input
+          checked={true}
+          className="form-check-input"
+          disabled={false}
+          onChange={[Function]}
+          type="radio"
+          value="all"
+        />
+        <label
+          className="form-check-label"
+          title=""
+          type="checkbox"
+        >
+          All
+        </label>
+      </div>
+      <div
+        className="form-check form-check-inline"
+      >
+        <input
+          checked={false}
+          className="form-check-input"
+          disabled={false}
+          onChange={[Function]}
+          type="radio"
+          value="musicVideo"
+        />
+        <label
+          className="form-check-label"
+          title=""
+          type="checkbox"
+        >
+          Music-Video
+        </label>
+      </div>
+      <div
+        className="form-check form-check-inline"
+      >
+        <input
+          checked={false}
+          className="form-check-input"
+          disabled={false}
+          onChange={[Function]}
+          type="radio"
+          value="audiobook"
+        />
+        <label
+          className="form-check-label"
+          title=""
+          type="checkbox"
+        >
+          Audio Book
+        </label>
+      </div>
+      <div
+        className="form-check form-check-inline"
+      >
+        <input
+          checked={false}
+          className="form-check-input"
+          disabled={false}
+          onChange={[Function]}
+          type="radio"
+          value="movie"
+        />
+        <label
+          className="form-check-label"
+          title=""
+          type="checkbox"
+        >
+          Movie
+        </label>
+      </div>
+      <div
+        className="form-check form-check-inline"
+      >
+        <input
+          checked={false}
+          className="form-check-input"
+          disabled={false}
+          onChange={[Function]}
+          type="radio"
+          value="podcast"
+        />
+        <label
+          className="form-check-label"
+          title=""
+          type="checkbox"
+        >
+          Podcast
+        </label>
+      </div>
+      <div
+        className="form-check form-check-inline"
+      >
+        <input
+          checked={false}
+          className="form-check-input"
+          disabled={false}
+          onChange={[Function]}
+          type="radio"
+          value="tvShow"
+        />
+        <label
+          className="form-check-label"
+          title=""
+          type="checkbox"
+        >
+          TV Show
+        </label>
+      </div>
+      <div
+        className="form-check form-check-inline"
+      >
+        <input
+          checked={false}
+          className="form-check-input"
+          disabled={false}
+          onChange={[Function]}
+          type="radio"
+          value="software"
+        />
+        <label
+          className="form-check-label"
+          title=""
+          type="checkbox"
+        >
+          Software
+        </label>
+      </div>
+      <div
+        className="form-check form-check-inline"
+      >
+        <input
+          checked={false}
+          className="form-check-input"
+          disabled={false}
+          onChange={[Function]}
+          type="radio"
+          value="ebook"
+        />
+        <label
+          className="form-check-label"
+          title=""
+          type="checkbox"
+        >
+          eBook
+        </label>
+      </div>
+      <label>
+        Limit
+      </label>
+      <input
+        id="limit"
+        maxLength="5"
+        onChange={[Function]}
+        placeholder="Limit"
+        type="text"
+        value={10}
+      />
+    </div>
+  </form>
+  <div />
+</div>
+`;

@@ -1,0 +1,30 @@
+{
+  "name": "express-ii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server.js"
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "es6-promise": "^4.2.8",
+    "express": "4.16.4",
+    "helmet": "^3.23.1",
+    "isomorphic-fetch": "^2.2.1",
+    "nodemon": "1.18.10"
+  },
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.0.1"
+  }
+}
